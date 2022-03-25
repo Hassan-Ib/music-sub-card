@@ -22,16 +22,16 @@ function App() {
               on any device anywhere you like!
             </p>
             <section className="card__sub">
-              <div className="card__music__icon__container">
-                <img
-                  src={musicIcon}
-                  alt="music icon"
-                  className="card__music__icon"
-                />
-              </div>
-              <p className="card__sub__details">
+              {/* <div className="card__music__icon__container"> */}
+              <img
+                src={musicIcon}
+                alt="music icon"
+                className="card__music__icon"
+              />
+              {/* </div> */}
+              <span className="card__sub__details">
                 <span>Annual plan</span> $59.99/year
-              </p>
+              </span>
               <button>Change</button>
             </section>
             <button className="proceed__btn">Proceed to Payment</button>
