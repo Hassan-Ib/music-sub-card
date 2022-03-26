@@ -97,6 +97,7 @@
   border-radius: 0.45rem;
   font-weight: 700;
   font-size: var(--text-primary);
+  box-shadow: 0 0.3rem 1rem rgba(114, 24, 197, 0.5);
 }
 .proceed__btn:hover {
   background-color: rgba(114, 24, 197, 0.7);
@@ -116,7 +117,7 @@
   }
   .card__sub {
     gap: 1rem;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
   }
 
   .card__sub button {
