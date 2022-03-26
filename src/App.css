@@ -40,6 +40,12 @@
   gap: 1.2rem;
 }
 
+.card__article {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
 .card__header {
   text-transform: capitalize;
   font-size: var(--text-header);
